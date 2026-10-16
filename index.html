@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171126">
+<title>Para Nayara, mi amor 💞</title>
+
+<style>
+* { box-sizing: border-box; }
+
+:root {
+  --pink: #ffc8df;
+  --purple: #d9baff;
+  --text: #fff4fa;
+  --muted: #e3d5ed;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at top, #47285e, transparent 60%),
+    linear-gradient(155deg, #100e25, #24152f 65%, #401d39);
+  font-family: Georgia, serif;
+}
+
+#sky {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  color: white;
+  animation: twinkle 3s ease-in-out infinite alternate;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  width: min(680px, 100%);
+  margin: auto;
+  padding: 40px 20px 65px;
+}
+
+.center { text-align: center; }
+.hidden { display: none !important; }
+
+h1 {
+  font-size: clamp(36px, 8vw, 57px);
+  line-height: 1.16;
+  font-weight: normal;
+  margin: 22px 0;
+}
+
+h2 {
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+p {
+  color: var(--muted);
+  line-height: 1.9;
+  font-size: 17px;
+}
+
+.eyebrow {
+  color: var(--pink);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.moon {
+  font-size: 65px;
+  margin: 24px 0;
+  animation: float 4s ease-in-out infinite;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background: var(--pink);
+  color: #32172e;
+  padding: 14px 22px;
+  font-family: inherit;
+  font-size: 16px;
+  margin: 9px 3px;
+  transition: transform .2s;
+}
+
+button:hover { transform: translateY(-2px); }
+
+button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 4px;
+}
+
+.secondary {
+  background: transparent;
+  color: white;
+  border-color: #cdb2e5;
+}
+
+.panel {
+  padding: 22px;
+  margin: 22px 0;
+  border: 1px solid #ffffff28;
+  background: #ffffff09;
+  border-radius: 19px;
+}
+
+.memory {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: white;
+  background: #ffffff0b;
+  border: 1px solid #ffffff28;
+  border-radius: 15px;
+  padding: 18px;
+  margin: 12px 0;
+}
+
+.memory strong {
+  display: block;
+  color: var(--pink);
+  margin-bottom: 8px;
+}
+
+.answer {
+  display: none;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.memory.open .answer { display: block; }
+
+.letter {
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+}
+
+footer {
+  text-align: center;
+  color: #bca9ca;
+  font-size: 13px;
+  line-height: 2;
+  margin-top: 45px;
+}
+
+@keyframes twinkle {
+  from { opacity: .25; }
+  to { opacity: 1; }
+}
+
+@keyframes float {
+  50% { transform: translateY(-8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+</style>
+</head>
+
+<body>
+<div id="sky" aria-hidden="true"></div>
+
+<main>
+  <!-- PORTADA -->
+  <section id="cover" class="center">
+    <div class="moon">☾</div>
+    <p class="eyebrow">Una historia que quiero seguir escribiendo</p>
+
+    <h1>Para Nayara,<br>mi amor, mi niña. 💞</h1>
+
+    <p>
+      Hay personas que llegan a tu vida poco a poco
+      y terminan ocupando un lugar que nunca
+      imaginaste que volverías a compartir con alguien.
+    </p>
+
+    <p>
+      Tú eres esa persona para mí.
+      Y hoy quiero regalarte un pedacito de todo
+      lo que llevo dentro.
+    </p>
+
+    <button onclick="startStory()">
+      Entrar en nuestro universo ♡
+    </button>
+
+    <p style="font-size:13px">
+      Ponte cómoda, mi amor. Esto es para ti.
+    </p>
+  </section>
+
+  <!-- CÓMO EMPEZÓ TODO -->
+  <section id="beginning" class="hidden">
+    <p class="eyebrow center">01 · Cómo empezó todo</p>
+    <div class="moon center">✧</div>
+    <h1 class="center">Quién nos iba a decir, mi amor...</h1>
+
+    <div class="panel">
+      <p>
+        Hace ya un año y cuatro meses que nuestros
+        caminos empezaron a cruzarse.
+      </p>
+
+      <p>
+        Nos conocíamos de vista, habíamos coincidido
+        alguna vez, pero fue Instagram el que terminó
+        acercándonos de verdad.
+      </p>
+
+      <p>
+        Fuiste tú quien me habló primero.
+        Empezamos a hablar, cada vez más seguido,
+        y sin darnos cuenta fuimos dejando de ser
+        dos personas que se conocían para convertirnos
+        en dos personas que querían saber más
+        la una de la otra.
+      </p>
+
+      <p>
+        Por aquel entonces yo llevaba bastante tiempo
+        soltero y había dejado de creer demasiado
+        en el amor. Tú también venías de pasar
+        por momentos que habían hecho daño
+        a tu corazón.
+      </p>
+
+      <p>
+        Ninguno sabía exactamente lo que iba a pasar.
+        Pero a veces la vida te sorprende justo cuando
+        ya no esperabas que alguien llegara a cambiar
+        tu manera de sentir.
+      </p>
+    </div>
+
+    <div class="center">
+      <button onclick="go('august')">Y entonces llegó agosto →</button>
+    </div>
+  </section>
+
+  <!-- AGOSTO -->
+  <section id="august" class="hidden">
+    <p class="eyebrow center">02 · El principio de algo bonito</p>
+    <div class="moon center">♡</div>
+    <h1 class="center">Agosto siempre tendrá algo especial.</h1>
+
+    <p>
+      Mi niña, recuerdo que fue en agosto cuando
+      algo empezó a cambiar dentro de mí.
+    </p>
+
+    <p>
+      El día que te pedí que fueras mi mejor amiga,
+      sin saber todo lo que aquel momento
+      acabaría significando, empecé a mirarte
+      de una manera diferente.
+    </p>
+
+    <p>
+      Poco a poco empecé a enamorarme de ti.
+      De nuestras conversaciones, de tu forma de ser,
+      de cómo me tratabas y de cómo conseguías
+      hacerme sentir cosas que creía que ya
+      no volvería a sentir.
+    </p>
+
+    <p>
+      Entonces decidí dar el paso, acercarme más
+      a ti y demostrarte poquito a poco
+      lo que estaba naciendo en mi corazón.
+    </p>
+
+    <div class="panel center">
+      <h2>Sin darme cuenta, estabas volviendo
+      a despertar mi ilusión por el amor.</h2>
+
+      <p>
+        Y lo más bonito es que no quería correr.
+        Quería conocerte, cuidarte y hacer que
+        lo nuestro creciera de verdad.
+      </p>
+    </div>
+
+    <div class="center">
+      <button onclick="go('official')">El día que elegimos lo nuestro →</button>
+    </div>
+  </section>
+
+  <!-- NOVIOS OFICIALMENTE -->
+  <section id="official" class="hidden center">
+    <p class="eyebrow">03 · Nuestra fecha</p>
+    <div class="moon">∞</div>
+
+    <h1>5 de septiembre.</h1>
+
+    <p>
+      Una fecha que desde entonces tiene
+      un significado distinto para mí.
+    </p>
+
+    <p>
+      Después de aquellos días de agosto en los
+      que empezamos a hablarnos como algo más
+      que amigos, llegó el momento de hacer
+      oficial lo que sentíamos.
+    </p>
+
+    <div class="panel">
+      <p class="eyebrow">Desde ese día</p>
+
+      <h2>
+        Tú y yo.<br>
+        Nosotros.
+      </h2>
+
+      <p>
+        No porque supiéramos todo lo que nos esperaba,
+        sino porque quisimos darnos la oportunidad
+        de descubrirlo juntos.
+      </p>
+    </div>
+
+    <p>
+      Y si pudiera volver a ese comienzo,
+      volvería a dar aquel paso que me acercó a ti.
+    </p>
+
+    <button onclick="go('firstMeet')">Y después llegó nuestro encuentro →</button>
+  </section>
+
+  <!-- PRIMER ENCUENTRO -->
+  <section id="firstMeet" class="hidden">
+    <p class="eyebrow center">04 · Por fin, en persona</p>
+    <div class="moon center">☾</div>
+    <h1 class="center">El día que pude verte.</h1>
+
+    <p>
+      Después de hablar tanto y de compartir
+      tantas cosas a través de una pantalla,
+      llegó el momento de vernos por primera vez.
+    </p>
+
+    <p>
+      Habíamos esperado unas dos semanas para
+      poder compartir ese momento en persona.
+      Y para mí significaba mucho más que quedar:
+      era poder tener delante a la persona
+      que ya se había hecho un huequito tan grande
+      en mi corazón.
+    </p>
+
+    <div class="panel">
+      <h2>Mi recuerdo favorito de aquel día.</h2>
+
+      <p>
+        Verte por primera vez convirtió algo que
+        hasta entonces vivíamos a través de mensajes
+        y conversaciones en un recuerdo real,
+        uno que podía guardar conmigo.
+      </p>
+
+      <p>
+        Cuando te vi, estaba nervioso, me emocioné un 
+        poco porque tenía ganas de verte y la verdad
+        me encantó verte.
+      </p>
+    </div>
+
+    <p>
+      Y me hace ilusión pensar que aquel día
+      no era un final, sino el comienzo de
+      muchos otros momentos que todavía
+      nos quedan por vivir.
+    </p>
+
+    <div class="center">
+      <button onclick="go('whyYou')">Lo que me enamora de ti →</button>
+    </div>
+  </section>
+
+  <!-- LO QUE AMA DE ELLA -->
+  <section id="whyYou" class="hidden">
+    <p class="eyebrow center">05 · Tú, Nayara</p>
+    <h1 class="center">¿Sabes qué me enamora de ti?</h1>
+
+    <p class="center">
+      Quiero que abras estas pequeñas confesiones,
+      mi niña. Cada una guarda algo que quiero
+      que sepas.
+    </p>
+
+    <button class="memory" onclick="reveal(this)">
+      <strong>♡ Tu forma de ser</strong>
+      <span class="answer">
+        Me enamora que seas tú. Tu manera de tratarme,
+        de expresarte y de compartir conmigo lo que
+        eres. No quiero que tengas que convertirte
+        en nadie más para sentirte querida por mí.
+        Me gusta seguir descubriéndote tal como eres.
+      </span>
+    </button>
+
+    <button class="memory" onclick="reveal(this)">
+      <strong>♡ Tu manera de quererme</strong>
+      <span class="answer">
+        Me llega al corazón el amor que me das.
+        Saber que compartimos este sentimiento
+        y sentir tu cariño hace que todo esto
+        tenga un valor enorme para mí.
+        Gracias por dejarme sentirlo contigo.
+      </span>
+    </button>
+
+    <button class="memory" onclick="reveal(this)">
+      <strong>♡ Cómo me haces sentir</strong>
+      <span class="answer">
+        Después de una etapa en la que había dejado
+        de creer demasiado en el amor, contigo
+        he vuelto a ilusionarme. Me has recordado
+        que todavía existen conexiones bonitas
+        que merecen la pena.
+      </span>
+    </button>
+
+    <button class="memory" onclick="reveal(this)">
+      <strong>♡ Lo que admiro de ti</strong>
+      <span class="answer">
+        Admiro tu forma de ser y el cariño que
+        compartes conmigo. Me importa tu corazón,
+        tu manera de tratarme y todo eso que te
+        hace ser Nayara. Quiero seguir conociendo
+        cada parte de ti.
+      </span>
+    </button>
+
+    <div class="panel center">
+      <h2>Mi niña, no me enamoré de una idea.</h2>
+      <p>
+        Me fui enamorando de ti, de cómo eres,
+        de cómo me tratas y de lo que estamos
+        construyendo entre los dos.
+      </p>
+    </div>
+
+    <div class="center">
+      <button onclick="go('future')">Todo lo que sueño vivir contigo →</button>
+    </div>
+  </section>
+
+  <!-- FUTURO -->
+  <section id="future" class="hidden center">
+    <p class="eyebrow">06 · Todo lo que nos queda</p>
+    <div class="moon">✨</div>
+
+    <h1>Quiero vivirlo todo contigo.</h1>
+
+    <p>
+      Cuando digo que quiero vivirlo todo contigo,
+      mi amor, no pienso solamente en los grandes
+      planes o en los momentos perfectos.
+    </p>
+
+    <p>
+      También pienso en las conversaciones sin mirar
+      la hora, las risas por cualquier tontería,
+      los paseos, las nuevas experiencias y esos
+      días normales que se vuelven especiales
+      porque los compartimos.
+    </p>
+
+    <p>
+      Quiero seguir conociendo tus sueños,
+      aprender qué cosas te hacen feliz,
+      apoyarte en tus metas y encontrar nuevas
+      formas de demostrarte cuánto mi importas.
+    </p>
+
+    <p>
+      No puedo saber todo lo que nos espera,
+      pero sí sé que me hace ilusión seguir
+      construyendo nuestra historia contigo,
+      sin dejar de cuidarnos y respetarnos.
+    </p>
+
+    <div class="panel">
+      <h2>Si pudiera pedir algo para nosotros...</h2>
+      <p>
+        Pediría que nunca nos falten las ganas
+        de escucharnos, de elegirnos con cariño
+        y de recordar por qué empezamos.
+      </p>
+    </div>
+
+    <button onclick="go('letter')">Mi última confesión, mi amor 💌</button>
+  </section>
+
+  <!-- CARTA -->
+  <section id="letter" class="hidden">
+    <p class="eyebrow center">07 · De mi corazón al tuyo</p>
+    <h1 class="center">Para mi Nayara.</h1>
+
+    <div class="panel">
+      <p class="letter">Mi amor, mi niña:
+
+Si hay algo que quiero que sepas después de leer
+todo esto, es que me alegro muchísimo de que
+nuestros caminos se hayan acercado.
+
+Nos conocíamos desde hacía tiempo, nos habíamos
+cruzado y, al final, fue un mensaje por Instagram
+el que nos dio la oportunidad de empezar a hablar
+de verdad. Fuiste tú quien dio aquel primer paso,
+sin saber todo lo bonito que podía nacer después.
+
+Yo llevaba bastante tiempo sin creer demasiado
+en el amor. Tú también habías pasado por momentos
+que habían hecho daño a tu corazón. Y aun así,
+poco a poco, empezamos a abrirnos el uno al otro.
+
+En agosto empecé a sentir algo diferente por ti.
+Aquel día en que te pedí que fueras mi mejor amiga
+se convirtió, sin que yo lo supiera, en el comienzo
+de algo que después quise cuidar y hacer crecer.
+
+Llegó el 5 de septiembre y nos hicimos novios
+oficialmente. Y después llegó aquel momento
+tan especial de vernos por primera vez.
+
+A veces me parece increíble pensar en todo
+lo que puede cambiar desde una conversación
+hasta llegar a sentir que alguien es tan
+importante para ti.
+
+Me enamora tu forma de ser, tu manera de tratarme,
+el cariño que me das y cómo me haces sentir.
+Me importa tu felicidad, me importa conocerte
+cada día un poquito más y me importa que
+lo nuestro sea algo que cuidemos entre los dos.
+
+No quiero prometerte una historia perfecta,
+porque sé que lo importante no es eso.
+Quiero demostrarte mi amor con pequeños detalles,
+con sinceridad, con respeto, con paciencia
+y con ganas de seguir aprendiendo juntos.
+
+Quiero vivir muchas cosas contigo, mi niña.
+Los planes grandes y los pequeños, las aventuras
+que todavía no imaginamos y esos ratitos sencillos
+que terminan convirtiéndose en recuerdos bonitos.
+
+He creado esta página porque quería regalarte
+algo que no fuera simplemente comprar una cosa.
+Quería dedicarte mi tiempo, mis palabras
+y una pequeña parte de todo lo que siento.
+
+Y, por supuesto, quería que estuviera nuestra
+canción, QUEVASHACERHOY, porque también forma
+parte de lo que compartimos y de nuestra historia.
+
+Gracias por haberme hablado aquel día.
+Gracias por acercarte a mí.
+Gracias por dejarme conocerte y por compartir
+conmigo este amor tan bonito.
+
+Te quiero muchísimo, Nayara.
+Me hace feliz que seas tú.
+
+Con todo mi cariño,
+tu amor. 💞</p>
+    </div>
+
+    <div class="center">
+      <button onclick="go('song')">Nuestra canción, mi niña 🎵</button>
+    </div>
+  </section>
+
+  <!-- FINAL MUSICAL -->
+  <section id="song" class="hidden center">
+    <div class="moon">♫</div>
+    <p class="eyebrow">08 · Nuestra canción</p>
+
+    <h1>Esta siempre me recordará a nosotros.</h1>
+
+    <p>
+      Mi amor, quería terminar este pequeño regalo
+      con algo que también forma parte de nuestra
+      historia: nuestra canción.
+    </p>
+
+    <div class="panel">
+      <h2>QUEVASHACERHOY</h2>
+      <p>Omar Courtz &amp; De La Rose</p>
+
+      <p style="font-size: 15px; margin-bottom: 20px;">
+        Mi niña, esta canción siempre tendrá un lugar especial para mí porque me recuerda a nosotros. 💞
+      </p>
+
+      <a
+        href="https://open.spotify.com/intl-es/track/0Sr7ssScx54yxdM2ols7nW?si=1bd608b7c0ea44b0"
+        target="_blank"
+        rel="noopener noreferrer"
+        style="
+          display: inline-block;
+          padding: 14px 22px;
+          border-radius: 28px;
+          background: #ffc8df;
+          color: #32172e;
+          text-decoration: none;
+          margin: 12px;
+          font-weight: bold;
+        "
+      >
+        Escuchar nuestra canción ♡
+      </a>
+    </div>
+
+    <p>
+      Si alguna vez vuelves a escucharla y piensas
+      en mí, quiero que recuerdes este pequeño
+      rincón que preparé para ti.
+    </p>
+
+    <p>
+      No sé cuántas páginas nos quedan por escribir
+      en nuestra historia, pero me hace ilusión
+      seguir descubriéndolas contigo.
+    </p>
+
+    <h2>Te quiero, mi niña. 💞</h2>
+    <p>Nayara, tú y yo, construyendo lo nuestro.</p>
+
+    <button onclick="again()" style="margin-top: 20px;">Volver al principio ♡</button>
+  </section>
+
+  <footer>
+    Hecho con cariño, pensando en ti.<br>
+    Para Nayara, mi amor. 💞
+  </footer>
+</main>
+
+<script>
+  // Fondo de estrellas dinámico.
+  const sky = document.getElementById("sky");
+
+  for (let i = 0; i < 65; i++) {
+    const star = document.createElement("span");
+    star.className = "star";
+    star.textContent = Math.random() > 0.8 ? "✦" : "·";
+    star.style.left = Math.random() * 100 + "%";
+    star.style.top = Math.random() * 100 + "%";
+    star.style.fontSize = (8 + Math.random() * 12) + "px";
+    star.style.animationDelay = Math.random() * 3 + "s";
+    sky.appendChild(star);
+  }
+
+  // Función de navegación entre secciones corregida
+  function go(id) {
+    document.querySelectorAll("main > section").forEach(section => {
+      section.classList.add("hidden");
+    });
+
+    const targetSection = document.getElementById(id);
+    if (targetSection) {
+      targetSection.classList.remove("hidden");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
+  // Iniciar historia apuntando correctamente a "beginning"
+  function startStory() {
+    go("beginning");
+  }
+
+  // Desplegar confesiones
+  function reveal(button) {
+    button.classList.toggle("open");
+  }
+
+  // Volver al inicio
+  function again() {
+    document.querySelectorAll(".memory").forEach(card => {
+      card.classList.remove("open");
+    });
+    go("cover");
+  }
+</script>
+</body>
+</html>
